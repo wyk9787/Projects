@@ -1,0 +1,39 @@
+#Does it live in the water?
+#Is it huge?
+#Is it dangerous?
+Shark
+#Does it have a blow hole?
+whale
+Dolphin
+#Does it have legs?
+#Does it eat insects?
+frog
+#Does it have a shell?
+squid
+turtle
+clownfish
+#Is it domestic?
+#Does it bark?
+dog
+#Does it run on a wheel?
+hamster
+#Can you ride on it?
+cat
+horse
+#Does it fly?
+bird
+#Does it have spots?
+#Does it run really fast?
+#Does it have antlers?
+cheetah
+deer
+#Does it have a long neck?
+Giraffe
+panda
+#Does it have stripes?
+#Is it a type of cat?
+Tiger
+zebra
+#Does it have a baby pocket?
+kangaroo
+monkey

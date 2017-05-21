@@ -1,0 +1,81 @@
+Problem 1:
+Operations to count: Math.abs(d1 - arr[i]) < eps
+Input of the model: double[] arr
+Worst-case scenarios: There is no element d2 in the array such that|d1 - d2| < eps
+Model T: Let n denote the length of arr. Then T(n) = n
+Big-O: O(n), c = 1, x0 = 0
+Proof: With the given c and x0, |n| = 1*|n| holds for all n >= x0 = 0.
+--------------------------------------------------------------
+Problem 2: (Assume y is even)
+Operations to count: fastExp(x * x, y / 2);
+Input of the model: int y
+Base-case: T(1) = 1
+Recursive-case operations: (let n denote y)
+T(n) = 1 + T(n/2)
+T(n) = 1 + (1 + T(n / 2^2)) = 1 + (1 + (1 + T(n / 2^3)))
+.
+.
+.
+Thus we use substitution and obtain 
+T(n) = k + T(n / 2^k)
+
+When n = 2^k, then k = log2(n), so T(n) = log2(n) + T(1) = log2(n) + 1 
+Big-O: O(log(n)), c = 1/log(2) + 1, x0 = exp(1)
+Proof: With the given c and x0, we have cg(n) = (1/log(2) + 1)*log(n)
+					      = log(n)/log(x) + log(n)
+					      >= log2(n) + 1
+       satisfied for all n >= x0 = exp(1).
+--------------------------------------------------------------
+Problem 3:
+Operations to count: resultArr[k] = new Pair(arr[i], arr[j]);
+Input of the model: int[] arr
+Model T: Let n denote the length of arr. Since our program is a nested loop, we have T(n) = n^2
+Big-O: O(n^2), c = 1, x0 = 0
+Proof: With the given c and x0, n^2 = 1*(n^2) holds for all n >= x0 = 0.
+--------------------------------------------------------------
+Problem 4:
+Operations to count: str += arr[i];
+Input of the model: int[] arr, int n
+Model T: Let n be the number of repetition and m be the length of arr, then T(m, n) = m * n
+Big-O: O(m * n), c = 1, x0 = 0
+Proof: With the given c and x0, m * n = 1*(m * n) holds for all x >= x0 = 0.
+
+After new information:
+Our runtime increases because originally we only count the key operation 
+str += arr[i]; 
+as O(1).
+With the given information, we claim that the new complexity is O( (m*n)^2 ).
+We can use a generic x to represent the average length of strings in arr.
+Now, notice that, when i = 0 and j = 0, the runtime for string concatenation is x;
+	          when i = 0 and j = 1, the runtime for string concatenation is 2x;
+		  when i = 0 and j = 3, the runtime for string concatenation is 3x;
+		  .
+		  .
+		  .
+		  when i = 1 and j = 0, the runtime for string concatenation is jx + x;
+		  when i = 1 and j = 1, the runtime for string concatenation is jx + 2x;
+		  .
+		  .
+		  .
+		  when i = n and j = m, the runtime for string concatenation is n*m*x.
+Since the length of the string would be fixed once after input, we can disregard x in our
+analysis of complexity because n and m dominant the runtime. Thus we add the above together
+and obtain (1+mn)*mn/2 which is in O( (m*n)^2 ).
+--------------------------------------------------------------
+Problem 5:
+Time complexity
+Operations to count: resultArr[2 * i] = arr1[i];
+					 resultArr[2 * i + 1] = arr2[i];
+					 resultArr[2 * arr2.length + i] = arr1[arr2.length + i];
+Input of the model: int[] arr1, int[] arr2
+Model T: Let m and n each denote the length of two arrays, then T(m, n) = m + n
+Big-O: O(m + n), c = 1, x0 = 0
+With the given c and x0, m + n = 1*(m + n) holds for all x >= x0 = 0.
+
+Space complexity
+Since we created and written over a new array of length m + n, we have the space complexity be
+Big-O: O(m + n), c = 1, x0 = 0
+Proof: With the given c and x0, m + n = 1*(m + n) holds for all x >= x0 = 0.
+
+Final review: Time complexity should always be the upper bound of space complexity.
+It is because writing over n space takes at least n time, and, depends on the algorithm, may take even more time.
