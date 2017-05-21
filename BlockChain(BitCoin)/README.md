@@ -10,8 +10,6 @@ Since it's mining the nonce the nonce to match the criteria, it may take a few s
 
 ### Command
 
-`help` : show commands
-
 `mine` : discovers the nonce for a given transaction
 
 `append` : appends a new block onto the end of the chain
