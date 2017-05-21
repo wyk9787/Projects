@@ -1,10 +1,31 @@
 # Block Chains
 
 ## Usage Example
+
 `javac src/*.java`
+
 `java src/BlockChainDriver 300` (You can replace 300 by any positive value to start with)
 
 Since it's mining the nonce the nonce to match the criteria, it may take a few seconds to run before anything shows up
+
+### Command
+
+`help` : show commands
+
+`mine` : discovers the nonce for a given transaction
+
+`append` : appends a new block onto the end of the chain
+
+`remove` : removes the last block from the end of the chain
+
+`check` : checks that the block chain is valid
+
+`report` : reports the balances of Alice and Bob
+
+`help` : prints this list of commands
+
+`quit` : quits the program
+
 
 ## Background
 - Blockchain is a sequence of records built to be highly resitant to change
