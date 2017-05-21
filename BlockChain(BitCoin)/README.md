@@ -1,5 +1,11 @@
 # Block Chains
 
+## Usage Example
+`javac src/*.java`
+`java src/BlockChainDriver 300` (You can replace 300 by any positive value to start with)
+
+Since it's mining the nonce the nonce to match the criteria, it may take a few seconds to run before anything shows up
+
 ## Background
 - Blockchain is a sequence of records built to be highly resitant to change
 - Blockchains was first used in 2008 to record transactions for the cryptocurrency Bitcoin
