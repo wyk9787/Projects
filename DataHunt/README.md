@@ -1,10 +1,8 @@
-# CSC 207 Homework: Data Processing Hunt
+# Data Processing Hunt
 
-*Note: make sure to include your data files in your Github submission---*i.e.*, add them to the repository and commit/push them!*
+## Description
 
-## About
-
-*Garrett Wang [wangyika]*
+- Getting data from the internet and doing data analysis
 
 ## Data Sources
 *http://datashaping.com/passwords.txt*
@@ -32,4 +30,3 @@
 *How many nuclear weapons does one single country own the most in 2014?*
 
 *How many nuclear weapons does United States own in average from 1945 to 2014 each year?*
-
