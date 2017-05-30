@@ -24,6 +24,6 @@ to check if it's deductively valid.
 
 ## Examples:
 
-((P>Q)^(~R))
+- ((P>Q)^(~R))
 
-(((P-S)v(~R))>T)
+- (((P-S)v(~R))>T)
