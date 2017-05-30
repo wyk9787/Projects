@@ -2,7 +2,8 @@
 
 ## Description
 
-- Getting data from the internet and doing data analysis
+- Looking for data sets online and fetch them.
+- Using Java higher-order functions to process data sets and answer questions about them. 
 
 ## Data Sources
 
@@ -32,5 +33,5 @@
 
 ### Instructions
 
-
+[Website](http://www.cs.grinnell.edu/~osera/courses/csc207/17sp/homeworks/data-processing-hunt.html)
 
