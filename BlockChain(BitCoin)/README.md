@@ -33,8 +33,3 @@ Since it's mining the nonce the nonce to match the criteria, it may take a few s
 
 ## Description
 - Develop a blockchain data structure to understand the essential operations that blockchain-based application perform.
-
-## Sources
-
-* [Website](http://www.cs.grinnell.edu/~osera/courses/csc207/17sp/homeworks/block-chain.html)
-
