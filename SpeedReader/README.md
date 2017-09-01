@@ -1,17 +1,10 @@
-# CSC 207 Homework 2: Speed Reader
+# Speed Reader
 
-Directions: [Homework 2 Speed Reader Write-up](http://www.cs.grinnell.edu/~osera/courses/csc207/17fa/homeworks/02-speed-reader.html)
+## Background
 
-## About
-
-1. Speed Reader
-2. Garrett Wang & Joshua Cussen
-3. A simple speed reading application
-4. http://stackoverflow.com/questions/27706197/how-can-i-center-graphics-drawstring-in-java
-  Used to figure out how to center the word.
-  http://stackoverflow.com/questions/21331221/how-to-change-the-color-of-a-single-character-in-a-string-with-drawstring
-  Used to figure out how to change the color of a single character in a string with the drawstring method.
-5. We did both extra credit items: centering the text and focus on the middle(ish) letter.
+- Everyone has wished they could read faster at some point in their life, for example, to get through the required reading for their English class, to cram for an exam, or to simply get through their ever-growing list of novels to read. 
+- Since the 1950s, psychologists, linguists, and educators have devoted significant efforts into speed reading techniques that can dramatically increase your reading speed with relatively little loss of comprehension. 
+- In this homework, we will prototype one approach to speed reading called Rapid Serial Visual Presentation (RSVP)—recently popularized by Spritz Inc. and apps like Spreed—and run some small user studies to test its effectiveness.
 
 ## Usability testing
 
