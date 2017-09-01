@@ -33,7 +33,6 @@ The player will start the game in Room 1. The objective of the game is to get ou
 - Objects to pick up: None
 
 ## MAP
-- (Try to view this in edit mode):
 
                                                                                                                  Way out (north east)
                                                                                                                 /
