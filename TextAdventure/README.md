@@ -9,7 +9,7 @@
 
 ## About the Game
 
-The player will start the game in Room 1. The objective of the game is to get out of the Noyce 3rd by slaying the monster PM. 
+- The player will start the game in Room 1. The objective of the game is to get out of the Noyce 3rd by slaying the monster PM. 
 
 ## Rooms
 
