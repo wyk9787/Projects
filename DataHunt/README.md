@@ -31,7 +31,3 @@
 
 - How many nuclear weapons does United States own in average from 1945 to 2014 each year?
 
-### Instructions
-
-- [Website](http://www.cs.grinnell.edu/~osera/courses/csc207/17sp/homeworks/data-processing-hunt.html)
-
