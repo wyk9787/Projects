@@ -1,4 +1,4 @@
 ROOT = .
-DIRS = shuffle every partC
+DIRS = shuffle every mywc
 
 include $(ROOT)/common.mk
