@@ -5,6 +5,13 @@
 A shell program that supports basic commands from Bash: `;`, `&` and provides
 exit status for exited program
 
+## Usage
+
+```
+make
+./mysh
+```
+
 ## Unimplemented functionality
 
 * Pipes `|`
